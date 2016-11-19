@@ -11,7 +11,7 @@ class Apple
   end
 
   def color= color
-    @color = color
+    @color = color 
     
   end
 
