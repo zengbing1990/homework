@@ -6,7 +6,7 @@ class Apple
   end
 
   def color
-    return @color
+    'red'
     
   end
 
@@ -20,4 +20,4 @@ end
 
 ping_guo = Apple.new
 ping_guo.color = 'red' 
-puts "ping_guo.color: #{ping_guo.color}" 
+puts ping_guo.color
